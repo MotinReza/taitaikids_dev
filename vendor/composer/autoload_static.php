@@ -526,6 +526,7 @@ class ComposerStaticInitbad4a1bad8329f283711191a8282c1dd
         'App\\Http\\Controllers\\OrderStatusController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderStatusController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Controllers\\ShippingController' => __DIR__ . '/../..' . '/app/Http/Controllers/ShippingController.php',
+        'App\\Http\\Helpers\\Converter' => __DIR__ . '/../..' . '/app/Http/Helpers/Converter.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',

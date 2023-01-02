@@ -87,6 +87,8 @@ Route::group(['middleware'=>['auth']],function(){
         Route::get('/edit/{id}',[ProductController::class,'edit'])->name('edit');
         Route::put('/update/{id}',[ProductController::class,'update'])->name('update');
         Route::get('/delete/{id}',[ProductController::class,'destroy'])->name('destroy');
+        Route::get('/product_details/{id}',[ProductController::class,'product_details'])->name('product_details');
+        Route::get('/show_gallery/{id}',[ProductController::class,'show_gallery'])->name('show_gallery');
     });
 
     //Order Management
